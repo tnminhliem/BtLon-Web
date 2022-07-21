@@ -1,0 +1,172 @@
+:root {
+    --heading: 'Montserrat', sans-serif;
+    --widthFooter: 70%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.object {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-color {
+    background-color: black;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.top-head {
+    padding: 10px 30px;
+}
+
+.nav ul {
+    height: 50px;
+    justify-content: center;
+}
+
+.nav li:hover {
+    border-bottom: 3px solid red;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    height: 30px;
+    border-radius: 16px;
+    padding: 0 30px 0 14px;
+    font-style: italic;   
+}
+
+.search .icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 7px 10px;
+}
+
+.search .icon:hover {
+    opacity: 0.5;
+}
+
+.list-icon {
+    display: none;
+}
+
+section {
+    height: 1300px;
+    background-color: aqua;
+}
+
+footer {
+    padding: 30px;
+}
+
+footer h2 {
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 10px 0;
+    line-height: 1.3;
+}
+
+.footer-left,
+.footer-right {
+    margin: 0 20px;
+}
+
+.footer-left {
+    width: var(--widthFooter);
+}
+
+.footer-right {
+    width: calc(100% - var(--widthFooter));
+}
+
+.footer-right ul li a {
+    color:white
+}
+
+.footer-right i {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.footer-right .fa-brands {
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 38px;
+}
+
+.footer-right .fa-facebook-f:hover {
+    background-color: #3b5999;
+    border-color: #3b5999;
+}
+
+.footer-right .fa-twitter:hover {
+    background-color: #55acee;
+    border-color: #55acee;
+}
+
+.footer-right .fa-youtube:hover {
+    background-color: #c00;
+    border-color: #c00;
+}
+
+.footer-right .fa-tiktok:hover {
+    background: linear-gradient(to right,#010101, #69C9D0, #EE1D52);
+    border-color: linear-gradient(to right,#010101, #69C9D0, #EE1D52);
+}
+
+footer > p {
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 20px;
+}
