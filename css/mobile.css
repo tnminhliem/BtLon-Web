@@ -23,7 +23,6 @@ header {
 
 .nav ul li {
     text-align: center;
-    transition: all .3s ease-in-out;
 }
 
 .nav ul li:hover {
