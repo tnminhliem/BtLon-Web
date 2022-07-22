@@ -10,24 +10,8 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
-}
-
-.flex {
-    display: flex;
-}
-
-.object {
-    justify-content: space-between;
-    align-items: center;
-}
-
-.text-white {
-    color: white;
-}
-
-.bg-color {
-    background-color: black;
+    font-family: 'Raleway', var(--heading);
+    scroll-behavior: smooth;
 }
 
 img {
@@ -42,36 +26,43 @@ a {
     text-decoration: none;
 }
 
+.flex {
+    display: flex;
+}
+
+.object {
+    align-items: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-color {
+    background-color: black;
+}
+
 header {
     position: fixed;
-    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .top-head {
     padding: 10px 30px;
 }
 
-.nav ul {
-    height: 50px;
-    justify-content: center;
-}
-
-.nav li:hover {
-    border-bottom: 3px solid red;
-}
-
-.nav ul li a {
-    display: block;
-    padding: 15px 20px;
-    color: white;
-}
-
-.nav ul li a:hover {
-    color: red;
+#time {
+    font-family: var(--heading);
+    margin-left: 20px;
+    padding-left: 15px;
+    border-left: 1px solid red;
 }
 
 .search {
     position: relative;
+    margin-left: auto;
 }
 
 .search input {
@@ -86,6 +77,7 @@ header {
     right: 0;
     bottom: 0;
     margin: 7px 10px;
+    color: rgb(88, 85, 85)
 }
 
 .search .icon:hover {
@@ -96,9 +88,39 @@ header {
     display: none;
 }
 
+#nav ul {
+    height: 50px;
+    justify-content: center;
+}
+
+#nav li:hover {
+    border-bottom: 3px solid red;
+}
+
+#nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+}
+
+#nav ul li a:hover {
+    color: red;
+}
+
 section {
-    height: 1300px;
+    margin-top: 108px;
+    height: 2000px;
     background-color: aqua;
+}
+
+.go {
+    position: fixed;
+    background-color: #333;
+    padding: 15px;
+    font-size: 1.2rem;
+    right: 15px;
+    bottom: 15px;
+    z-index: 1;
 }
 
 footer {
@@ -128,7 +150,7 @@ footer p {
 }
 
 .footer-right ul li a {
-    color:white
+    color:white;
 }
 
 .footer-right i {

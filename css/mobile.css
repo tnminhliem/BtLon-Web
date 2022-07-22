@@ -1,3 +1,7 @@
+.object {
+    justify-content: space-between;
+}
+
 header {
     height: 50px;
 }
@@ -8,31 +12,31 @@ header {
 }
 
 .list-icon,
-.nav ul {
+#nav ul {
     display: block;
 }
 
-.object {
-    justify-content: space-between;
-}
-
-.nav,
+#time,
+#nav,
 .search {
     display: none;
 }
 
-.nav ul li {
+#nav ul li {
     text-align: center;
-    transition: all .3s ease-in-out;
 }
 
-.nav ul li:hover {
+#nav ul li:hover {
     background: red;
     border-bottom: none;
 }
 
-.nav ul li a:hover {
+#nav ul li a:hover {
     color: white;
+}
+
+section {
+    margin-top: 50px;
 }
 
 footer .container {
