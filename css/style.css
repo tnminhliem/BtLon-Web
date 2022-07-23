@@ -39,7 +39,7 @@ a {
 }
 
 .bg-color {
-    background-image: url(../img/bg-footer.jpg);
+    background-image: url(./img/bg-footer.jpg);
 }
 
 header {
