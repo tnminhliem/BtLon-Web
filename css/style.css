@@ -39,7 +39,7 @@ a {
 }
 
 .bg-color {
-    background-color: black;
+    background-image: url(/img/bg-footer.jpg);
 }
 
 header {
@@ -110,12 +110,12 @@ header {
 section {
     margin-top: 108px;
     height: 2000px;
-    background-color: aqua;
+    background-color: white;
 }
 
 .go {
     position: fixed;
-    background-color: #333;
+    background-color: #01224D;
     padding: 15px;
     font-size: 1.2rem;
     right: 15px;
